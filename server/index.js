@@ -6,7 +6,6 @@ const { User } = require("./models/User");
 const config = require("./config/key");
 
 app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use(bodyParser.json());
 
 const mongoose = require("mongoose");
